@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>find the right color</title>
+</head>
+<body>
+    <div class="index1" id="index1">
+        <h1>can you make it right?</h1>
+        <h2>level 1/10</h2>
+        <div class="container">
+            <button style="background-color:rgb(130, 55, 255)" class="buttonStyle"></button>
+            <button style="background-color:rgb(40, 145, 175)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(70, 115, 205)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(100, 85, 235)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(10, 175, 145)" class="buttonStyle draggable" draggable="false"></button>
+        </div>
+        <button class="checkButton" onclick="rm1()"> check</button>
+    </div>
+
+    <div class="index2" id="index2">
+        <h1>can you make it right?</h1>
+        <h2>level 2/10</h2>
+        <div class="container">
+            <button style="background-color:rgb(40, 160, 200)" class="buttonStyle"></button>
+            <button style="background-color:rgb(100, 100, 140)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(80, 120, 160)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(160, 80, 120)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(60, 140, 180)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(180, 60, 100)" class="buttonStyle draggable" draggable="false"></button>
+        </div>
+        <button class="checkButton" onclick="rm2()"> check</button>
+    </div>
+
+    <div class="index3" id="index3">
+        <h1>can you make it right?</h1>
+        <h2>level 3/10</h2>
+        <div class="container" style="width: 400px;">
+            <button style="background-color:rgb(120, 200, 40)" class="buttonStyle"></button>
+            <button style="background-color:rgb(40, 120, 120)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(80, 160, 80)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(20, 100, 140)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(60, 140, 100)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(100, 180, 60)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(0, 80, 160)" class="buttonStyle draggable" draggable="false"></button>
+        </div>
+        <button class="checkButton" onclick="rm3()"> check</button>
+    </div>
+
+    <div class="index4" id="index4">
+        <h1>can you make it right?</h1>
+        <h2>level 4/10</h2>
+        <div class="container" style="width: 430px;">
+            <button style="background-color:rgb(150, 40, 210)" class="buttonStyle"></button>
+            <button style="background-color:rgb(30, 130, 150)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(110, 70, 190)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(50, 115, 160)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(70, 100, 170)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(90, 85, 180)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(130, 55, 200)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(10, 145, 140)" class="buttonStyle draggable" draggable="false"></button>
+        </div>
+        <button class="checkButton" onclick="rm4()"> check</button>
+    </div>
+
+    <div class="index5" id="index5">
+        <h1>can you make it right?</h1>
+        <h2>level 5/10</h2>
+        <div class="container" style="width: 480px;">
+            <button style="background-color:rgb(100, 40, 130)" class= "buttonStyle"></button>
+            <button style="background-color:rgb(30, 110, 60)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(70, 70, 100)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(50, 90, 80)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(80, 60, 110)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(90, 50, 120)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(40, 100, 70)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(60, 80, 90)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(20, 120, 50)" class="buttonStyle draggable" draggable="false"></button>
+        </div>
+        <button class="checkButton" onclick="rm5()"> check</button>
+    </div>
+
+    <div class="index6" id="index6">
+        <h1>can you make it right?</h1>
+        <h2>level 6/10</h2>
+        <div class="container" style="width: 480px;">
+            <button style="background-color:rgb(175, 170, 100)" class="buttonStyle" ></button>
+            <button style="background-color:rgb(115, 110, 100)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(155, 150, 100)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(125, 120, 100)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(95, 90, 100)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(135, 130, 100)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(165, 160, 100)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(105, 100, 100)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(145, 140, 100)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(85, 80, 100)" class="buttonStyle draggable" draggable="false"></button>
+        </div>
+        <button class="checkButton" onclick="rm6()"> check</button>
+    </div>
+
+    <div class="index7" id="index7">
+        <h1>can you make it right?</h1>
+        <h2>level 7/10</h2>
+        <div class="container" style="width: 490px;">
+            <button style="background-color:rgb(130, 80, 100)" class="buttonStyle" ></button>
+            <button style="background-color:rgb(110, 70, 100)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(80, 55, 100)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(90, 60, 100)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(70, 50, 100)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(100, 65, 100)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(50, 40, 100)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(60, 45, 100)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(40, 35, 100)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(120, 75, 100)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(30, 30, 100)" class="buttonStyle draggable" draggable="false"></button>
+        </div>
+        <button class="checkButton" onclick="rm7()"> check</button>
+    </div>
+
+    <div class="index8" id="index8">
+        <h1>can you make it right?</h1>
+        <h2>level 8/10</h2>
+        <div class="container" style="width: 500px;">
+            <button style="background-color:rgb(180, 160, 250)" class="buttonStyle"></button>
+            <button style="background-color:rgb(170, 150, 240)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(175, 155, 245)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(155, 135, 225)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(140, 120, 210)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(150, 130, 220)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(145, 125, 215)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(160, 140, 230)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(130, 110, 200)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(165, 145, 235)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(135, 115, 205)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(125, 105, 195)" class="buttonStyle draggable" draggable="false"></button>
+        </div>
+        <button class="checkButton" onclick="rm8()"> check</button>
+    </div>
+
+    <div class="index9" id="index9">
+        <h1>can you make it right?</h1>
+        <h2>level 9/10</h2>
+        <div class="container" style="width: 500px;">
+            <button style="background-color:rgb(120, 180, 245)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(90, 150, 245)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(100, 160, 245)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(95, 155, 245)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(125, 185, 245)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(115, 175, 245)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(85, 145, 245)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(110, 170, 245)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(105, 165, 245)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(130, 190, 245)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(80, 140, 245)" class="buttonStyle draggable" draggable="false"></button>
+        </div>
+        <button class="checkButton" onclick="rm9()"> check</button>
+    </div>
+
+    <div class="index10" id="index10">
+        <h1>can you make it right?</h1>
+        <h2>level 10/10</h2>
+        <div class="container" style="width: 500px;">
+            <button style="background-color:rgb(225, 145, 160)" class="buttonStyle" ></button>
+            <button style="background-color:rgb(180, 129, 160)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(215, 141, 160)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(210, 139, 160)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(185, 131, 160)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(195, 135, 160)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(190, 133, 160)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(220, 143, 160)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(175, 125, 160)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(175, 127, 160)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(205, 137, 160)" class="buttonStyle draggable" draggable="true"></button>
+            <button style="background-color:rgb(170, 123, 160)" class="buttonStyle draggable" draggable="false"></button>
+        </div>
+        <a class="checkButton" rel="index2" href="index2.html">check</a>
+        <script>rm10()</script>
+    </div>
+</body>
+</html>
